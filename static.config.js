@@ -29,6 +29,10 @@ export default {
       {
         path: "/about",
         template: "src/pages/about"
+      },
+      {
+        path: "*",
+        template: "src/pages/404"
       }
     ];
   },
